@@ -1,0 +1,93 @@
+.card {
+    background-color: #fafafa;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px  4px 4px rgba(0, 0, 0, 0.25);
+    font-family:"Inter", sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.card-title{
+    font-size:32px;
+    color: #676767;
+    text-align: center;
+}
+
+.card-result{
+    font-size: 48px;
+    font-weight: bold;
+    color: #676767;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+   margin:auto;
+}
+
+.card-subtitle{
+    font-size: 16px;
+    font-weight: lighter;
+    color:#676767;
+    text-align: center;
+
+}
+.grafica-rectangulo-fondo{
+    width: 50px;
+    height: 200px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.grafica-rectandulo-nivel{
+    width: 50px;
+    height:50% ;
+    background-color: rgb(27, 67, 53);
+}
+
+.barra{
+    border-color: rgb(185, 124, 32);
+    border-width: 2px;
+    border-style: solid;
+    width:100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:10px;
+    padding-right: 10px;
+    align-items: center;
+}
+#nivel-1{
+    height: 20%;
+}
+
+#nivel-2{
+    height: 45%;
+}
+
+#nivel-3{
+    height: 55%;
+}
+
+#nivel-4{
+    height: 75%;
+}
+
+#nivel-5{
+    height: 85%;
+}
+#nivel-6{
+    height: 100%;
+}
+
